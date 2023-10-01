@@ -100,3 +100,127 @@ header {
   height: 604px;
   width: 375px;
 }
+
+#pg2 {
+  display: inline-flex;
+  padding: 114px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 88px;
+}
+
+#card {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border-radius: 16px;
+  border: 1px solid var(--neutrals-n-40, #dfe1e6);
+}
+
+.snapImg {
+  width: 295px;
+  height: 220px;
+  border-radius: 8px;
+}
+
+.Font {
+  width: 295px;
+  height: 36px;
+  color: var(--neutrals-n-800, #172b4d);
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.det {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.Details {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.p1 {
+  color: var(--neutrals-n-600, #344563);
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.p2 {
+  color: var(--neutrals-n-100, #7a869a);
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.detPara {
+  width: 295px;
+  height: 76px;
+  color: var(--neutrals-n-600, #344563);
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.detButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.TB {
+  color: var(--primary-b-400, #6070ff);
+  font-family: Poppins, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.36px;
+  display: flex;
+  padding: 4px 12px;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--primary-b-50, #ebebff);
+}
+
+.SeeProject {
+  display: flex;
+  padding: 12px 169px 12px 0;
+  align-items: center;
+}
+
+#SP {
+  color: var(--primary-b-500, #396df2);
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+}
+
+.SPoutline {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-b-400, #6070ff);
+}

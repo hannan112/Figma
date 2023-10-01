@@ -250,3 +250,87 @@ header {
   align-items: flex-start;
   gap: 12px;
 }
+
+#pg3B {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.lang {
+  display: flex;
+  padding: 16px 26px 16px 12px;
+  align-items: center;
+  gap: 12px;
+  color: #000;
+}
+
+.langDetails {
+  width: 237px;
+  color: #000;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.langList {
+  display: flex;
+  padding: 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.languages {
+  display: flex;
+  width: 303px;
+  padding: 9px 12px 9.716px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  background: var(--neutrals-n-10, #f7f7f9);
+}
+
+.ln {
+  display: flex;
+  width: 215px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--neutrals-n-700, #253858);
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.frameworks {
+  display: flex;
+  width: 327px;
+  height: 72px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.fn {
+  width: 237px;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  color: #000;
+  line-height: 24px;
+}
+
+.rightIndicator {
+  width: 24px;
+  height: 24px;
+}

@@ -13,13 +13,13 @@ body {
   width: 375px;
   height: 48px;
   padding: 4px 24px 4px 12px;
-  align-items: flex-start;
+  align-items: center;
   gap: 199px;
   flex-shrink: 0;
   justify-content: space-around;
 }
 
-.sec {
+.sec{
   display: inline-flex;
   padding: 114px 24px;
   flex-direction: column;
@@ -27,7 +27,6 @@ body {
   gap: 12px;
   background-image: url(./img.png);
 }
-
 header {
   height: 48px;
   display: flex;
@@ -52,24 +51,39 @@ header {
 }
 
 .content {
-  color: var(--neutrals-n-800, #172b4d);
-  font-family: Poppins, sans-serif;
+  display: flex;
+  width: 327px;
+  height: 35px;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--neutrals-n-800, #172B4D);
+
+  /* Header / 2 */
+  font-family: Poppins;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 52px; /* 130% */
+}
+
+.content1{
   display: flex;
   width: 327px;
   height: 150px;
   flex-direction: column;
   justify-content: center;
+  color: var(--neutrals-n-800, #172B4D);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
 }
-
 .description {
   width: 327px;
-  height: 146px;
+  height: 148px;
   color: var(--neutrals-n-600, #344563);
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -88,8 +102,8 @@ header {
 }
 
 .contact {
-  color: var(--primary-b-300, #7f8cff);
-  font-family: Poppins, sans-serif;
+  color: var(--primary-b-300, #7F8CFF);
+  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -97,26 +111,29 @@ header {
 }
 
 #pg1 {
-  height: 604px;
+  height: 676px;
   width: 375px;
 }
 
 #pg2 {
-  display: inline-flex;
+  display: flex;
   padding: 114px 24px;
   flex-direction: column;
   align-items: center;
   gap: 88px;
+  background-color: #F7F7F9;
+  width: 375px;
 }
 
-#card {
+.card {
   display: flex;
   padding: 16px;
   flex-direction: column;
   align-items: center;
   gap: 12px;
   border-radius: 16px;
-  border: 1px solid var(--neutrals-n-40, #dfe1e6);
+  border: 1px solid var(--neutrals-n-40, #DFE1E6);
+  background-color: white;
 }
 
 .snapImg {
@@ -128,12 +145,12 @@ header {
 .Font {
   width: 295px;
   height: 36px;
-  color: var(--neutrals-n-800, #172b4d);
-  font-family: Poppins, sans-serif;
+  color: var(--neutrals-n-800, #172B4D);
+  font-family: Poppins;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 44px;
+  line-height: 44px
 }
 
 .det {
@@ -151,7 +168,7 @@ header {
 
 .p1 {
   color: var(--neutrals-n-600, #344563);
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -159,8 +176,8 @@ header {
 }
 
 .p2 {
-  color: var(--neutrals-n-100, #7a869a);
-  font-family: Poppins, sans-serif;
+  color: var(--neutrals-n-100, #7A869A);
+  font-family: Poppins;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -171,7 +188,7 @@ header {
   width: 295px;
   height: 76px;
   color: var(--neutrals-n-600, #344563);
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -185,8 +202,8 @@ header {
 }
 
 .TB {
-  color: var(--primary-b-400, #6070ff);
-  font-family: Poppins, sans-serif;
+  color: var(--primary-b-400, #6070FF);
+  font-family: Poppins;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -196,19 +213,19 @@ header {
   padding: 4px 12px;
   align-items: center;
   border-radius: 8px;
-  background: var(--primary-b-50, #ebebff);
+  background: var(--primary-b-50, #EBEBFF);
 }
 
 .SeeProject {
   display: flex;
-  padding: 12px 169px 12px 0;
+  padding: 12px 169px 12px 0px;
   align-items: center;
 }
 
-#SP {
-  color: var(--primary-b-500, #396df2);
+.SP {
+  color: var(--primary-b-500, #396DF2);
   text-align: center;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
@@ -218,11 +235,10 @@ header {
 
 .SPoutline {
   display: flex;
-  padding: 12px;
   align-items: center;
   gap: 10px;
   border-radius: 8px;
-  border: 1px solid var(--primary-b-400, #6070ff);
+  border: 1px solid var(--primary-b-400, #6070FF);
 }
 
 #card2 {
@@ -232,8 +248,8 @@ header {
   align-items: center;
   gap: 12px;
   border-radius: 16px;
-  border: 1px solid var(--neutrals-n-40, #dfe1e6);
-  background: var(--neutrals-n-0, #fff);
+  border: 1px solid var(--neutrals-n-40, #DFE1E6);
+  background: var(--neutrals-n-0, #FFF);
 }
 
 #pg3 {
@@ -270,7 +286,7 @@ header {
 .langDetails {
   width: 237px;
   color: #000;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -293,7 +309,7 @@ header {
   align-items: center;
   gap: 16px;
   border-radius: 8px;
-  background: var(--neutrals-n-10, #f7f7f9);
+  background: var(--neutrals-n-10, #F7F7F9);
 }
 
 .ln {
@@ -304,7 +320,7 @@ header {
   justify-content: center;
   flex-shrink: 0;
   color: var(--neutrals-n-700, #253858);
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -322,7 +338,7 @@ header {
 
 .fn {
   width: 237px;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -339,26 +355,35 @@ header {
   width: 375px;
   height: 779px;
   flex-shrink: 0;
-  background-color: #6070ff;
+  background-color:#6070FF ;
   background-image: url(./contact\ form\ shapes-mobile@2x.png);
-
-  /* border-top-left-radius: 8px; */
-  background-position-x: right;
+  border-top-left-radius: 8px;
+  background-position-x:right;
   background-repeat: no-repeat;
   background-size: 265px 709.166px;
   border-top-left-radius: 90px;
   margin-top: 20px;
-}
+  }
 
+.contact1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
 .contactMe {
-  padding-top: 80px;
+ padding-top: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  color: var(--neutrals-n-0, #fff);
+  color: var(--neutrals-n-0, #FFF);
   text-align: center;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -369,10 +394,10 @@ header {
   width: 327px;
   height: 137px;
   flex-shrink: 0;
-  color: var(--primary-b-50, #ebebff);
+  color: var(--primary-b-50, #EBEBFF);
   text-align: center;
   margin: auto;
-  font-family: Poppins, sans-serif;
+  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -384,8 +409,8 @@ header {
   height: 48px;
   flex-shrink: 0;
   border-radius: 8px;
-  border: 1px solid var(--base-100, #cfd8dc);
-  background: var(--mono-white, #fff);
+  border: 1px solid var(--base-100, #CFD8DC);
+  background: var(--mono-white, #FFF);
 }
 
 .inputName {
@@ -395,68 +420,70 @@ header {
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
-  color: var(--neutral-n-800, #172b4d);
-  font-family: Poppins, sans-serif;
+  color: var(--neutral-n-800, #172B4D);
+  font-family: Poppins;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
-}
+  }
 
 #inputplace {
   width: 273px;
   height: 170px;
   flex-shrink: 0;
   border-radius: 8px;
-  border: 1px solid var(--base-100, #cfd8dc);
-  background: var(--mono-white, #fff);
+  border: 1px solid var(--base-100, #CFD8DC);
+  background: var(--mono-white, #FFF);
 }
 
-#inputPlaceHolder {
-  color: var(--neutrals-n-60, #b3bac5);
-  font-family: Poppins, sans-serif;
+#inputPlaceHolder{
+  color: var(--neutrals-n-60, #B3BAC5);
+  font-family: Poppins;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
 
-.SP {
+.SP{
   padding: 10px 20px;
   background-color: white;
   border-radius: 8px;
-  color: #6070ff;
-  font-weight: 500;
+  color: #6070FF;
+  font-weight: 500
 }
 
-form {
+form{
   padding: 20px;
   display: flex;
   flex-direction: column;
 }
 
-form input,
-textarea {
+form input,textarea{
   padding: 13px;
   margin-bottom: 10px;
-  border: 1px solid #cfd8dc;
+  border: 1px solid #CFD8DC;
   background-color: white;
-  border-radius: 8px;
-  color: #172b4d;
+  border-radius: 8px ;
+  color: #172B4D;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 20px; 
 }
 
-.button {
+.button{
   padding: 08px 12px;
-  color: #6070ff;
+  color:  #6070FF;
   text-align: center;
   border-radius: 8px;
-  background: #ffff;
+  background: #FFFF;
+  font-family: Poppins;
   font-size: 17px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+  letter-spacing: 0.51px;
+  width: 40%;
 }
